@@ -1,0 +1,888 @@
+/* ============================= font-sizes ============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+/* ====================== Navbar css ============== */
+
+.header-img {
+    background-image: url(../images/bg-img.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.para-size {
+    font-size: 1.5rem;
+}
+
+.font-size1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.header-img h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#courses h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+#header-img #navbarNav .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.btn-login1 {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #FF9F45;
+    padding: 7px 17px;
+    border-radius: 5px;
+}
+
+
+/* ======================== Header css =================== */
+
+.boder-blue {
+    border: 3px solid #35589A;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #35589A;
+}
+
+
+/* ==================== Courses css ========= */
+
+.card-shadow {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+#courses .card-shadow:hover {
+    background-color: #F76E11;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#courses .card-shadow:hover .color-gray {
+    color: white;
+}
+
+#courses {
+    background-color: #F5F5F5;
+}
+
+hr:not([size]) {
+    height: 2px;
+    color: #97A7F5;
+}
+
+#courses .card-shadow .color-gray {
+    color: #404040;
+}
+
+#courses .card-shadow .color-gray {
+    color: #404040;
+}
+
+#courses .btn-see {
+    border: 2px solid rgb(80, 45, 45);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: medium;
+    padding: 7px 16px;
+    font-size: 0.9rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#courses .btn-see:hover {
+    background-color: rgb(80, 45, 45);
+    color: white;
+}
+
+
+/* ======================================= Party css =====================  */
+
+.party-bg {
+    background-color: #35589A;
+    color: white;
+}
+
+.party-bg p {
+    text-align: justify;
+    width: 574px;
+}
+
+.btn-start {
+    background-color: #f76e11;
+    padding: 4px 35px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-start:hover {
+    background-color: white;
+    color: #f76e11;
+}
+
+.party-heading {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* ================= edu bg ================== */
+
+.education-bg {
+    background-image: url(../images/edu-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100% !important;
+}
+
+.color-ornge {
+    color: #f76e11;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+
+/* ===================== Slider-bg ===================== */
+
+.slider-bg {
+    background-image: url(../images/slider-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100% !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -3rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+    background-color: #9E9E9E;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    background-color: white;
+}
+
+#carouselExampleIndicators1 .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -3rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+#carouselExampleIndicators1 .carousel-indicators button {
+    background-color: #9E9E9E;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#carouselExampleIndicators1 .carousel-indicators .active {
+    background-color: white;
+}
+
+.slider-para {
+    color: black;
+}
+
+.slider-bg .card {
+    border-radius: 10px;
+}
+
+.color-faq {
+    color: #9E9E9E;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#faq .form-control {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 50px;
+    padding: 20px;
+}
+
+ ::placeholder {
+    font-size: 1.1rem;
+    color: #9E9E9E;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: transparent;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border-bottom: 1px sold black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.btn-according {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.accordion-button::after {
+    border: 2px solid #9E9E9E;
+    border-radius: 50px;
+    padding: 8px 8px;
+    background-size: 1.1rem;
+    width: 22px;
+    height: 22px;
+}
+
+.btn-start-2 {
+    background-color: #F76E11;
+    padding: 6px 22px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-start-2:hover {
+    background-color: white;
+    color: #F76E11;
+}
+
+.hesitate-bg {
+    background: linear-gradient(267.73deg, #35589A 0%, #3A7CF8 100%);
+    color: white;
+}
+
+#footer .fotr-color {
+    color: #9E9E9E;
+}
+
+#footer .fotr-color:hover {
+    color: #F76E11;
+}
+
+#footer li a {
+    color: #9E9E9E;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#footer h6 {
+    color: #9E9E9E;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#footer button {
+    background-color: #F76E11;
+    padding: 6px 22px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+.form-control:focus {
+    border-color: transparent;
+}
+
+#footer h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.chat-card::before {
+    content: "";
+    left: -23px;
+    position: absolute;
+    bottom: -9px;
+    width: 65px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-image: url(../images/Polygon.svg);
+    z-index: 1;
+}
+
+.chat-card-3:before {
+    content: "";
+    left: -23px;
+    position: absolute;
+    bottom: -9px;
+    width: 65px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-image: url(../images/Polygon.svg);
+    z-index: 1;
+}
+
+.chat-card2:before {
+    content: "";
+    right: -23px;
+    position: absolute;
+    bottom: -9px;
+    width: 65px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-image: url(../images/Polygon.svg);
+    z-index: 1;
+}
+
+.slider-bg .card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#footer p {
+    width: 371px;
+}
+
+
+/* ===================== NAVBAR ================= */
+
+#navbar-link nav {
+    box-shadow: 0px 4x 4px rgba(0, 0, 0, 0.25);
+}
+
+#navbar-link #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #404040;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+
+/* .nav-item .active::before {
+    content: "";
+    position: absolute;
+    background-color: #F76E11;
+    width: 56px;
+    height: 3px;
+    top: 71px;
+    left: 465px;
+} */
+
+#navbar-link #navbarNav .navbar-nav .nav-item .orange-color {
+    color: #F76E11;
+}
+
+
+/* ====== form ======== */
+
+#welcome {
+    background-color: #E5E5E5;
+}
+
+#welcome h1 {
+    color: #F76E11;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#welcome .card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4x 4px rgba(0, 0, 0, 0.25);
+}
+
+#welcome h3 {
+    color: #FF9F45;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#welcome p {
+    color: #9E9E9E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#welcome .form-label {
+    color: #404040;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+#welcome input {
+    border: 1px solid #E0E0E0;
+}
+
+.form-control:focus,
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.has-search .btn {
+    border-radius: 3px;
+    border-right: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#welcome .karkter {
+    color: #616161;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+#welcome .form-check-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #404040;
+    font-size: 0.9rem;
+}
+
+#welcome .btn-register {
+    background-color: #F76E11;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.sign {
+    color: #404040;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.why-bg {
+    background-color: #F5F5F5;
+}
+
+.forget-input {
+    color: #404040;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.red-color {
+    color: #7A0613;
+}
+
+.card-border1 {
+    border: 1px solid #9E9E9E;
+}
+
+.padding {
+    padding: 1rem 1rem;
+}
+
+#imag {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#imag2 {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+#imag3f {
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+
+/* ============ about us ========== */
+
+.header-bg {
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.para-size {
+    font-size: 1.5rem;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+#tab-nav .nav-link {
+    display: block;
+    padding: 0rem;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #F76E11;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+    isolation: isolate;
+}
+
+.nav-tabs .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #9E9E9E;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.tabs-bg {
+    background-color: transparent;
+}
+
+#myTabContent .tab-pane .card-shadow:hover {
+    background-color: #F76E11;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#myTabContent .tab-pane .card-shadow .color-gray {
+    color: #404040;
+}
+
+#myTabContent .tab-pane .card-shadow {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+hr:not([size]) {
+    height: 2px;
+    color: #97A7F5;
+}
+
+.card-shadow h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.card-shadow h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#myTabContent .tab-pane .card-shadow .color-gray {
+    color: #404040;
+}
+
+#myTabContent .tab-pane .card-shadow:hover .color-gray {
+    color: white;
+}
+
+#tabs-bg {
+    background-color: #F5F5F5;
+}
+
+.heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.about-heading {
+    color: #F76E11;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.about p {
+    text-align: justify;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.font-bold {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.about h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.card-heading {
+    color: #F76E11;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.about-card p {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    font-size: 1.1rem;
+}
+
+.knowledge-bg {
+    background: linear-gradient(267.73deg, #35589A 0%, #3A7CF8 100%);
+    color: white;
+}
+
+.knowledge-bg h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.btn-start {
+    background-color: #f76e11;
+    padding: 7px 35px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* ============== tabs ========= */
+
+.h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+
+/* ============== why ========= */
+
+.para-color {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    font-size: 1.1rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #9E9E9E;
+}
+
+
+/* ========== course ============ */
+
+#bitcoin h6 {
+    color: #D41718;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+}
+
+#bitcoin .price {
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+}
+
+.btn-off {
+    background-color: #F76E11;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    padding: 6px 14px;
+    font-size: 0.9rem;
+}
+
+.bitcin-color {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.card-color {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #F76E11;
+}
+
+.card-border {
+    border: 1px solid #616161;
+    border-radius: 10px;
+}
+
+#bitcoin a {
+    color: #9E9E9E;
+}
+
+#bitcoin .course {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #F76E11;
+}
+
+.btn-course {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: #F76E11;
+    padding: 9px 20px;
+}
+
+
+/* ===================== NAVBAR 2================= */
+
+nav {
+    box-shadow: 0px 4x 4px rgba(0, 0, 0, 0.25);
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link {
+    color: #404040;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+#navbarNav .navbar-nav .nav-item .btn-login {
+    background-color: #F76E11;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 5px;
+}
+
+#navbarNav .navbar-nav .nav-item .orange-color {
+    color: #F76E11;
+}
+
+
+/* ================ footer ============== */
+
+#footer .fotr-color {
+    color: #9E9E9E;
+}
+
+#footer p {
+    width: 371px;
+}
+
+#footer li a {
+    color: #9E9E9E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+#footer h6 {
+    color: #9E9E9E;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#footer button {
+    background-color: #F76E11;
+    padding: 6px 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#footer h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.forget-input {
+    color: #404040;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.border-active-link {
+    border-bottom: 4px solid #F76E11;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+    border-radius: 20px;
+}
